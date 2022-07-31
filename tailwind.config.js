@@ -18,13 +18,16 @@ module.exports = {
       'md': {'max': '767px'},
       // => @media (max-width: 767px) { ... }
 
-      'sm-max': {'max': '720px'},
+      'sm-max': {'max': '767px'},
 
       // // => @media (max-width: 639px) { ... }
-      'sm': {'min': '1320px'},
-      'sm-md':{'min':'720px'},
+      'sm': {'min': '1296px'},
+
+      'sm-md':{'min':'767px'},
+
       // => @media (max-width: 639px) { ... }
-      'sm-mini':{'max':'576px'},
+      'mini':{'max':'576px'},
+      
     }, spacing: {
       px: '1px',
       0: '0',
