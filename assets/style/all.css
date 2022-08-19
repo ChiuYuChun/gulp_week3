@@ -709,8 +709,8 @@ select {
 .h-\[84px\] {
   height: 84px;
 }
-.h-\[416ph\] {
-  height: 416ph;
+.h-\[416px\] {
+  height: 416px;
 }
 .h-\[240px\] {
   height: 240px;
@@ -1003,7 +1003,12 @@ select {
     display: none;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 766px) {
+
+  .md\:flex-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 
   .md\:py-2\.5 {
     padding-top: 0.625rem;
@@ -1014,6 +1019,8 @@ select {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
+}
+@media (max-width: 767px) {
 
   .sm-max\:mx-2 {
     margin-left: 0.5rem;
